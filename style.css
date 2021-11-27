@@ -33,11 +33,17 @@ html {
   text-align: center;
 }
 
+.introduction,
+.text {
+  margin-bottom: 60px;
+}
+
 .heading-second {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .menu__checkbox {
@@ -79,6 +85,10 @@ html {
 
 .main {
   padding: 50px 80px;
+}
+
+.text {
+  text-align: center;
 }
 
 .footer {
