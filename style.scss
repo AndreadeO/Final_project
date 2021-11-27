@@ -21,11 +21,11 @@ html {
 .body {
   font-family: $font-paragraphs;
   font-size: 20px;
-  background-color: $background-color;
+  background-color: $main-color;
 }
 
 .header {
-  background-color: $background-color;
+  background-color: $main-color;
   background-image: url(/images/header-01.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,24 +34,34 @@ html {
 }
 
 .header__title {
-  font-family: $font-headlings;
+  font-family: $font-headings;
   font-size: 80px;
   text-align: center;
 
 }
 
-.heading-second {
-  font-family: $font-headings;
-  font-size: 20px;
+.introduction {
+  text-align: center;
 
 }
+
+.heading-second {
+  font-family: $font-paragraphs;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+
+}
+
+
 .menu__checkbox {
 	position: absolute;
 	left: -9999px;
 }
 
 .menu__toggler {
-	cursor: pointer;
+  font-weight: 600;
 }
 
 
@@ -65,27 +75,62 @@ html {
 .menu__item {
   list-style: none;
   border-bottom: 2px solid $main-color;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  
 
 }
 
 .menu__link {
   text-decoration: none;
-  color: $menu-color-text;
-  display: block;  
+  color: $main-color;
+  display: block;
+  padding: 10px;  
 }
 
 .menu__link:hover {
   background-color: #bc4749;
+  color: $light-color;
 }
 
 .menu__checkbox:checked ~ .menu__list {
 	display: block;
 }
 
-footer {
-  padding: 15px;
+.main {
+  padding: 50px 80px;
+
+}
+
+.footer {
+  padding: 5px;
   color: $main-color;
   background-color: $dark-color;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+
+
+}
+
+@media screen and (min-width: 800px) {
+  .menu__toggler {
+    display: none;
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu__item {
+    border-bottom: 0;
+    
+
+  }
+
+  .menu__link:hover {
+    background-color: #bc4749; /*udelat underline*/
+    color: $light-color;
+  }
+
 }

@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   background-color: #dbffc1;
@@ -29,9 +29,24 @@ body {
   text-align: center;
 }
 
+.introduction {
+  text-align: center;
+}
+
+.heading-second {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .menu__checkbox {
   position: absolute;
   left: -9999px;
+}
+
+.menu__toggler {
+  font-weight: 600;
 }
 
 .menu__list {
@@ -43,17 +58,53 @@ body {
 
 .menu__item {
   list-style: none;
-  border-bottom: 2px solid #ffe4f3;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-bottom: 2px solid #dbffc1;
 }
 
 .menu__link {
   text-decoration: none;
-  color: #ffe4f3;
+  color: #dbffc1;
   display: block;
+  padding: 10px;
+}
+
+.menu__link:hover {
+  background-color: #bc4749;
+  color: #ffe4f3;
 }
 
 .menu__checkbox:checked ~ .menu__list {
   display: block;
+}
+
+.main {
+  padding: 50px 80px;
+}
+
+.footer {
+  padding: 5px;
+  color: #dbffc1;
+  background-color: #386641;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .menu__toggler {
+    display: none;
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu__item {
+    border-bottom: 0;
+  }
+
+  .menu__link:hover {
+    background-color: #bc4749;
+    /*udelat underline*/
+    color: #ffe4f3;
+  }
 }/*# sourceMappingURL=style.css.map */
