@@ -1,9 +1,91 @@
+$main-color: #dbffc1;
+$red-color: #bc4749;
+$light-color: #ffe4f3;
+$dark-color: #386641; 
+
+
+$font-headings: 'Comforter Brush', cursive;
+$font-paragraphs: 'Open Sans', sans-serif;  /*font-family: 'Comforter Brush', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+
+
 html {
     box-sizing: border-box;
   }
   
-  *, ::before, ::after {
-    box-sizing: inherit;
-  }
+*, ::before, ::after {
+  box-sizing: inherit;
+}
 
-  
+.body {
+  font-family: $font-paragraphs;
+  font-size: 20px;
+  background-color: $background-color;
+}
+
+.header {
+  background-color: $background-color;
+  background-image: url(/images/header-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.header__title {
+  font-family: $font-headlings;
+  font-size: 80px;
+  text-align: center;
+
+}
+
+.heading-second {
+  font-family: $font-headings;
+  font-size: 20px;
+
+}
+.menu__checkbox {
+	position: absolute;
+	left: -9999px;
+}
+
+.menu__toggler {
+	cursor: pointer;
+}
+
+
+.menu__list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: $dark-color;
+}
+
+.menu__item {
+  list-style: none;
+  border-bottom: 2px solid $main-color;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.menu__link {
+  text-decoration: none;
+  color: $menu-color-text;
+  display: block;  
+}
+
+.menu__link:hover {
+  background-color: #bc4749;
+}
+
+.menu__checkbox:checked ~ .menu__list {
+	display: block;
+}
+
+footer {
+  padding: 15px;
+  color: $main-color;
+  background-color: $dark-color;
+}

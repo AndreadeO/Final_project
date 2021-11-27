@@ -1,7 +1,59 @@
+/*font-family: 'Comforter Brush', cursive;
+font-family: 'Open Sans', sans-serif;*/
 html {
   box-sizing: border-box;
 }
 
 *, ::before, ::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: #dbffc1;
+}
+
+.header {
+  background-color: #dbffc1;
+  background-image: url(/images/header-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.header__title {
+  font-family: "Comforter Brush", cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+.menu__checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.menu__list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: #386641;
+}
+
+.menu__item {
+  list-style: none;
+  border-bottom: 2px solid #ffe4f3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #ffe4f3;
+  display: block;
+}
+
+.menu__checkbox:checked ~ .menu__list {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
