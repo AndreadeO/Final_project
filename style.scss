@@ -1,7 +1,9 @@
 $main-color: #dbffc1;
 $red-color: #bc4749;
 $light-color: #ffe4f3;
-$dark-color: #386641; 
+$dark-color: #386641;
+$baby-pink-color: #ffeef2; 
+$box-shadow-color: #b2a1af;
 
 
 $font-headings: 'Comforter Brush', cursive;
@@ -56,6 +58,7 @@ html {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  color: $dark-color;
 
 
 }
@@ -68,6 +71,7 @@ html {
 
 .menu__toggler {
   font-weight: 600;
+  color: $dark-color;
 }
 
 
@@ -117,6 +121,57 @@ html {
   text-align: center;
 }
 
+.card__item {
+  border: 1px solid transparent;
+  background-color: $baby-pink-color;
+  border-radius: 4px;
+  box-shadow: 3px 5px 13px -3px #b2a1af;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+
+
+}
+
+.card__image {
+  width: 50%;
+  border-radius: 50%;
+  
+}
+
+.card__title {
+  font-weight: 600;
+  color: $dark-color;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.card__item--first {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  
+}
+
+.card__item--second {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+
+}
+
+.card__item--third {
+  grid-column: 1/-1;
+  grid-row: 3/-1;
+
+}
+
+
 @media screen and (min-width: 500px) {
 
 
@@ -143,4 +198,34 @@ html {
     color: $light-color;
   }
 
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  .card__item--first,
+  .card__item--fourth {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    
+  }
+  
+  .card__item--second,
+  .card__item--fifth {
+    grid-column: 2/3;
+    grid-row: 1/-1;
+  
+  }
+  
+  .card__item--third,
+  .card__item--sixth {
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+  
+  }
+   
+  
+  
 }
