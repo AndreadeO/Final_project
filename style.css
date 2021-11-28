@@ -41,7 +41,7 @@ html {
 
 .heading-second {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
@@ -145,29 +145,24 @@ html {
   grid-row: 3/-1;
 }
 
-/*
-.topic {
-  position: relative;
-}
-
-.topic__image--first {
-  width: 400px;
+.topic__image {
+  width: 300px;
   border-radius: 8px;
-  position: absolute;
-  top: 0;
-  right: 0;
-
-}
-
-.topic__text--first {
-  float: left;
-}*/
-.topic__image--first {
   display: block;
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.topic__text {
+  line-height: 1.7;
+}
+
+.heading-third {
+  font-size: 25px;
+  margin-top: 50px;
+  color: #386641;
+  text-decoration: underline overline;
 }
 
 /* DODELAT VERZI PRO TABLET
@@ -223,5 +218,11 @@ html {
 .card__item--sixth {
     grid-column: 3/-1;
     grid-row: 1/-1;
+  }
+
+  .topic__image--first {
+    width: 400px;
+    float: right;
+    margin: 0 0 30px 30px;
   }
 }/*# sourceMappingURL=style.css.map */
