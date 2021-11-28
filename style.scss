@@ -26,7 +26,7 @@ html {
   background-color: $main-color;
 }
 
-.header {
+.header {  /*upravit header at je foto ke kraji a neni videt barva*/
   background-color: $main-color;
   background-image: url(/images/header-01.png);
   background-repeat: no-repeat;
@@ -170,12 +170,42 @@ html {
   grid-row: 3/-1;
 
 }
+/*
+.topic {
+  position: relative;
+}
 
-
-@media screen and (min-width: 500px) {
-
+.topic__image--first {
+  width: 400px;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
 
 }
+
+.topic__text--first {
+  float: left;
+}*/
+
+.topic__image--first {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+/* DODELAT VERZI PRO TABLET
+@media screen and (min-width: 600px) {
+  .card__item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  
+
+}*/
+
 
 @media screen and (min-width: 800px) {
   .menu__toggler {
