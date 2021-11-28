@@ -163,6 +163,7 @@ html {
   margin-top: 50px;
   color: #386641;
   text-decoration: underline overline;
+  text-align: center;
 }
 
 /* DODELAT VERZI PRO TABLET
@@ -224,5 +225,16 @@ html {
     width: 400px;
     float: right;
     margin: 0 0 30px 30px;
+  }
+
+  .heading-third {
+    text-align: left;
+  }
+
+  .topic__image--second,
+.topic__image--third,
+.topic__image--fourth,
+.topic__image--fifth {
+    float: left;
   }
 }/*# sourceMappingURL=style.css.map */
