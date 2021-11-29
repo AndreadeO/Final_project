@@ -184,6 +184,7 @@ html {
 
 .topic__text {
   line-height: 1.7;
+  margin-bottom: 70px;
 }
 
 .heading-third {
@@ -198,6 +199,18 @@ html {
   border-bottom: 1px solid $dark-color;
   margin-top: 50px;
 
+}
+
+.list {
+  position: relative;
+  left: 50%;
+  
+  
+}
+
+.list__item {
+  list-style-type: square;
+  
 }
 
 
