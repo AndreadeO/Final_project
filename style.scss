@@ -194,6 +194,11 @@ html {
   text-align: center;
 }
 
+.topic__item {
+  border-bottom: 1px solid $dark-color;
+  margin-top: 50px;
+
+}
 
 
 /* DODELAT VERZI PRO TABLET
@@ -256,10 +261,12 @@ html {
   
   }
   
-  .topic__image--first {
-    width: 400px;
+  .topic__image--first,
+  .topic__image--seventh {
     float: right;
-    margin: 0 0 30px 30px;
+    /*margin: 0 0 30px 30px; tento zapis mozny*/
+    margin-left: 30px;
+    margin-bottom: 30px;
     
   }
   
@@ -267,12 +274,35 @@ html {
     text-align: left;
   }
   
-  .topic__image--second,
-  .topic__image--third,
-  .topic__image--fourth,
-  .topic__image--fifth {
-    float: left;
-    
+  .topic__item {
+    display: flex;
+    gap: 50px;
+
   }
   
+  .topic__image {
+    width: 400px;
+
+  }
+
+  .topic__image--fifth,
+  .topic__image--sixth,
+  .topic__image--eighth {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+  }
+
+  .heading-third--float {
+    clear: left;
+  }
+
+  .topic__image--seventh,
+  .topic__image--eighth {
+    width: 500px;
+  }
+
+
+
 }

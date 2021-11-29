@@ -166,6 +166,11 @@ html {
   text-align: center;
 }
 
+.topic__item {
+  border-bottom: 1px solid #386641;
+  margin-top: 50px;
+}
+
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
   .card__item {
@@ -221,20 +226,41 @@ html {
     grid-row: 1/-1;
   }
 
-  .topic__image--first {
-    width: 400px;
+  .topic__image--first,
+.topic__image--seventh {
     float: right;
-    margin: 0 0 30px 30px;
+    /*margin: 0 0 30px 30px; tento zapis mozny*/
+    margin-left: 30px;
+    margin-bottom: 30px;
   }
 
   .heading-third {
     text-align: left;
   }
 
-  .topic__image--second,
-.topic__image--third,
-.topic__image--fourth,
-.topic__image--fifth {
+  .topic__item {
+    display: flex;
+    gap: 50px;
+  }
+
+  .topic__image {
+    width: 400px;
+  }
+
+  .topic__image--fifth,
+.topic__image--sixth,
+.topic__image--eighth {
     float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .heading-third--float {
+    clear: left;
+  }
+
+  .topic__image--seventh,
+.topic__image--eighth {
+    width: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
