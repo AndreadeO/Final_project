@@ -187,6 +187,13 @@ html {
   color: #bc4749;
 }
 
+.heading-fourth {
+  font-size: 23px;
+  font-style: italic;
+  color: #386641;
+  margin-top: 50px;
+}
+
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
   .card__item {
@@ -285,5 +292,10 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
     /*posunout na stred jak u mobile tak pc*/
     grid-auto-rows: auto;
+  }
+
+  .list--short {
+    display: flex;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=style.css.map */

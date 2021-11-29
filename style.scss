@@ -218,6 +218,14 @@ html {
   
 }
 
+.heading-fourth {
+  font-size: 23px; 
+  font-style: italic; 
+  color: $dark-color;
+  margin-top: 50px;
+  
+}
+
 
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
@@ -325,6 +333,11 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  /*posunout na stred jak u mobile tak pc*/
     grid-auto-rows: auto;
+  }
+
+  .list--short {
+    display: flex;
+    justify-content: space-evenly;
   }
 
 
