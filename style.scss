@@ -200,16 +200,21 @@ html {
   margin-top: 50px;
 
 }
-
+/*
 .list {
-  position: relative;
-  left: 50%;
   
   
 }
-
+*/
 .list__item {
   list-style-type: square;
+  color: $red-color;
+
+  
+}
+
+.list__link {
+  color: $red-color;
   
 }
 
@@ -316,6 +321,11 @@ html {
     width: 500px;
   }
 
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /*posunout na stred jak u mobile tak pc*/
+    grid-auto-rows: auto;
+  }
 
 
 }

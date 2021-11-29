@@ -172,13 +172,19 @@ html {
   margin-top: 50px;
 }
 
+/*
 .list {
-  position: relative;
-  left: 50%;
-}
 
+
+}
+*/
 .list__item {
   list-style-type: square;
+  color: #bc4749;
+}
+
+.list__link {
+  color: #bc4749;
 }
 
 /* DODELAT VERZI PRO TABLET
@@ -272,5 +278,12 @@ html {
   .topic__image--seventh,
 .topic__image--eighth {
     width: 500px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*posunout na stred jak u mobile tak pc*/
+    grid-auto-rows: auto;
   }
 }/*# sourceMappingURL=style.css.map */
