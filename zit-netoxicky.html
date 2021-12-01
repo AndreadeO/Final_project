@@ -1,89 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+---
+layout: hlavni-sablona.njk
+title: Žít netoxicky
+---
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
+<h2 class="heading-second">Domácnost</h2>
 
-<body class="body">
+<div class="card"> <!--pridat odkazy tem kartam na stranku-->
 
-    <header class="header">
-        <h1 class="header__title">Bez bordelu</h1>
-    </header>
+    <div class="card__item card__item--first">
+        <img class="card__image" src="/images/soap-flakes-quadrat.jpg" alt="Mýdlové vločky">
+        <p class="card__title">Základní suroviny</p>
+    </div>
 
-    <nav class="menu">
+    <div class="card__item card__item--second">
+        <img class="card__image" src="/images/laundry-quadrat.jpg" alt="Praní">
+        <p class="card__title">Praní</p>
+    </div>
 
-        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
-		<label for="menu-checkbox" class="menu__toggler">☰ Menu</label>
+    <div class="card__item card__item--third">
+        <img class="card__image" src="/images/cleaning-quadrat.jpg" alt="Úklid">
+        <p class="card__title">Úklid</p>
+    </div>
+</div>
 
-        <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Úvod</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Žít netoxicky</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Složení produktů</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Vhodné produkty</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Recenze produktů</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-        </ul>
+<h2 class="heading-second">Kosmetika</h2>
 
-    </nav>
+<div class="card">
 
-    <main class="main">
+    <div class="card__item card__item--fourth">
+        <img class="card__image" src="/images/body-care-quadrat.jpg" alt="Mýdla a kartáč">
+        <p class="card__title">Péče o tělo</p>
+    </div>
 
-        <h2 class="heading-second">Domácnost</h2>
+    <div class="card__item card__item--fifth">
+        <img class="card__image" src="/images/baby-stuff-quadrat.jpg" alt="Pleny">
+        <p class="card__title">Péče o dítě</p>
+    </div>        
+    
+    <div class="card__item card__item--sixth">
+        <img class="card__image" src="/images/beauty-quadrat.jpg" alt="Líčidla ">
+        <p class="card__title">Dekorativní kosmetika</p>
+    </div>
 
-        <div class="card"> <!--pridat odkazy tem kartam na stranku-->
+</div>
 
-            <div class="card__item card__item--first"> 
-                <img class="card__image" src="images/soap-flakes-quadrat.jpg" alt="Mýdlové vločky">
-                <p class="card__title">Základní suroviny</p>
-            </div>
-
-            <div class="card__item card__item--second">
-                <img class="card__image" src="images/laundry-quadrat.jpg" alt="Praní">
-                <p class="card__title">Praní</p>
-            </div>
-
-            <div class="card__item card__item--third">
-                <img class="card__image" src="images/cleaning-quadrat.jpg" alt="Úklid">
-                <p class="card__title">Úklid</p>
-            </div>
-        </div>
-
-        <h2 class="heading-second">Kosmetika</h2>
-
-        <div class="card">
-
-            <div class="card__item card__item--fourth">
-                <img class="card__image" src="images/body-care-quadrat.jpg" alt="Mýdla a kartáč">
-                <p class="card__title">Péče o tělo</p>
-            </div>
-
-            <div class="card__item card__item--fifth">
-                <img class="card__image" src="images/baby-stuff-quadrat.jpg" alt="Pleny">
-                <p class="card__title">Péče o dítě</p>
-            </div>        
-            
-            <div class="card__item card__item--sixth">
-                <img class="card__image" src="images/beauty-quadrat.jpg" alt="Líčidla ">
-                <p class="card__title">Dekorativní kosmetika</p>
-            </div>
-
-        </div>
-
-
-
-    </main>
-
-    <footer class="footer">
-        <p>© 2021, Bez bordelu</p>
-    </footer>
-
-</body>
-</html>

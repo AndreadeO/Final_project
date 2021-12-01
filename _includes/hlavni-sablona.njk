@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Žít netoxicky</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,49 +36,7 @@
 
     <main class="main">
 
-    
-<h2 class="heading-second">Domácnost</h2>
-
-<div class="card"> <!--pridat odkazy tem kartam na stranku-->
-
-    <div class="card__item card__item--first">
-        <img class="card__image" src="/images/soap-flakes-quadrat.jpg" alt="Mýdlové vločky">
-        <p class="card__title">Základní suroviny</p>
-    </div>
-
-    <div class="card__item card__item--second">
-        <img class="card__image" src="/images/laundry-quadrat.jpg" alt="Praní">
-        <p class="card__title">Praní</p>
-    </div>
-
-    <div class="card__item card__item--third">
-        <img class="card__image" src="/images/cleaning-quadrat.jpg" alt="Úklid">
-        <p class="card__title">Úklid</p>
-    </div>
-</div>
-
-<h2 class="heading-second">Kosmetika</h2>
-
-<div class="card">
-
-    <div class="card__item card__item--fourth">
-        <img class="card__image" src="/images/body-care-quadrat.jpg" alt="Mýdla a kartáč">
-        <p class="card__title">Péče o tělo</p>
-    </div>
-
-    <div class="card__item card__item--fifth">
-        <img class="card__image" src="/images/baby-stuff-quadrat.jpg" alt="Pleny">
-        <p class="card__title">Péče o dítě</p>
-    </div>        
-    
-    <div class="card__item card__item--sixth">
-        <img class="card__image" src="/images/beauty-quadrat.jpg" alt="Líčidla ">
-        <p class="card__title">Dekorativní kosmetika</p>
-    </div>
-
-</div>
-
-
+    {{ content | safe }}
 
     </main>
 
