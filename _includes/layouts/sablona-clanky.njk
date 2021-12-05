@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body class="body">
+
+    {% include 'partials/header.njk' %}
+
+    {% include 'partials/menu.njk' %}
+
+    <main class="main">
+
+        <article class="article">
+
+            <h3 class="article__title">{{ title }}</h3>
+
+            <img class="article__image" src="/images/{{ foto }}.jpg" alt="{{ alt }}">
+
+            <p class="article__perex">{{ perex }}</p>
+
+            {{ content | safe }}
+
+            <p class="article__date">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
+
+        </article>
+
+    </main>
+
+    {% include 'partials/footer.njk' %}
+
+</body>
+</html>

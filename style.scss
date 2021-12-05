@@ -20,12 +20,13 @@ html {
 }
 
 .body {
-  font-family: $font-paragraphs;
-  font-size: 20px;
+  font-family: $font-paragraphs; 
+  font-size: 20px; 
   background-color: $main-color;
   margin: 0;
-
+  
 }
+
 
 .header {  /*upravit header at je foto ke kraji a neni videt barva*/
   background-color: $main-color;
@@ -59,7 +60,8 @@ html {
   margin-bottom: 60px;
 }
 
-.heading-second {
+.heading-second,
+.article__title {
   font-family: $font-paragraphs;
   font-size: 40px;
   font-weight: 600;
@@ -70,7 +72,8 @@ html {
 
 }
 
-.heading-third {
+.heading-third,
+.article__title {
   font-size: 25px;
   margin-top: 50px;
   color: $dark-color;
@@ -88,7 +91,7 @@ html {
 
 
 .menu__checkbox {
-	position: absolute;
+    position: absolute;
 	left: -9999px;
 }
 
@@ -240,10 +243,14 @@ html {
   
 }
 
-
 .article__image {
-  width: 300px;
+    width: 300px;        
+}    
+
+.article__perex {
+    font-weight: 600;
 }
+
 
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
@@ -254,7 +261,7 @@ html {
   
 
 }*/
-
+  
 
 @media screen and (min-width: 800px) {
   .menu__toggler {
@@ -310,7 +317,6 @@ html {
   .topic__image--first,
   .topic__image--seventh {
     float: right;
-    /*margin: 0 0 30px 30px; tento zapis mozny*/
     margin-left: 30px;
     margin-bottom: 30px;
     

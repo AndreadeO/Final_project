@@ -1,66 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+---
+layout: layouts/hlavni-sablona.njk
+title: Články
+---
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
+<h2>Články</h2>
 
-<body class="body">
+{% for post in collections.clanky | reverse %}
 
-    <a href="/" class="link">
-        <header class="header">
-            <h1 class="header__title">Bez bordelu</h1>
-        </header>
-    </a>
-
-    <nav class="menu">
-
-        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
-		<label for="menu-checkbox" class="menu__toggler">☰ Menu</label>
-
-        <ul class="menu__list">
-            <li class="menu__item"><a href="/" class="menu__link">Úvod</a></li>
-            <li class="menu__item"><a href="/zit-netoxicky/" class="menu__link">Žít netoxicky</a></li>
-            <li class="menu__item"><a href="/slozeni-produktu/" class="menu__link">Složení produktů</a></li>
-            <li class="menu__item"><a href="/vhodne-produkty/" class="menu__link">Vhodné produkty</a></li>
-            <li class="menu__item"><a href="/recenze/" class="menu__link">Recenze produktů</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Články</a></li>
-        </ul>
-
-    </nav>
-
-    <main class="main">
-
-        <article class="article">
-
-            <h2 class="article__title">Péče o pleť v zimě</h2>
+    <h2>{{ post.data.title }}</h2>
+    <p>{{ post.data.perex }}</p>
+    <p><a href="{{ post.url }}">číst dál</a></p>
 
 
-            <p class="article__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> 
-                
-            <p class="article__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p> 
-                
-            <p class="article__text">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-            <img class="article__image" src="/images/shea-butter.jpg" alt="Bambucke maslo">
-
-            <p class="article__date">Publikováno</p>
-
-
-        </article>
-
-    </main>
-
-    <footer class="footer">
-        <p>© 2021, Bez bordelu</p>
-    </footer>
-
-</body>
-</html>
+{% endfor %}

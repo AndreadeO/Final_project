@@ -41,7 +41,8 @@ html {
   margin-bottom: 60px;
 }
 
-.heading-second {
+.heading-second,
+.article__title {
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
   font-weight: 600;
@@ -50,7 +51,8 @@ html {
   color: #386641;
 }
 
-.heading-third {
+.heading-third,
+.article__title {
   font-size: 25px;
   margin-top: 50px;
   color: #386641;
@@ -194,6 +196,10 @@ html {
   width: 300px;
 }
 
+.article__perex {
+  font-weight: 600;
+}
+
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
   .card__item {
@@ -246,7 +252,6 @@ html {
   .topic__image--first,
 .topic__image--seventh {
     float: right;
-    /*margin: 0 0 30px 30px; tento zapis mozny*/
     margin-left: 30px;
     margin-bottom: 30px;
   }
