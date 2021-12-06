@@ -245,7 +245,7 @@ html {
 
 .article__image {
     width: 300px;        
-}    
+}  
 
 .article__perex {
     font-weight: 600;
@@ -280,7 +280,7 @@ html {
   }
 
   .menu__link:hover {
-    background-color: #bc4749; /*udelat underline*/
+    background-color: #bc4749;
     color: $light-color;
   }
 
@@ -367,7 +367,30 @@ html {
   }
 
   .article__image {
-    width: 100px;
-    float: right;
+    width: 500px;
+  
+  } 
+  
+  .article__title {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: $dark-color;
+    text-decoration: underline overline;
+    text-align: left;
+  
+  }
+  
+  .article__date {
+    text-align: left;
+  }
+  
+  .article__perex {
+    margin-bottom: 50px;
+  }
+  
+  .article__content {
+    display: flex;
+    gap: 40px;
   }
 }

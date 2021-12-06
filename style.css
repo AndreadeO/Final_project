@@ -225,7 +225,6 @@ html {
 
   .menu__link:hover {
     background-color: #bc4749;
-    /*udelat underline*/
     color: #ffe4f3;
   }
 
@@ -299,7 +298,28 @@ html {
   }
 
   .article__image {
-    width: 100px;
-    float: right;
+    width: 500px;
+  }
+
+  .article__title {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #386641;
+    text-decoration: underline overline;
+    text-align: left;
+  }
+
+  .article__date {
+    text-align: left;
+  }
+
+  .article__perex {
+    margin-bottom: 50px;
+  }
+
+  .article__content {
+    display: flex;
+    gap: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

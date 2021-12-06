@@ -27,11 +27,24 @@
 
             <h3 class="article__title">{{ title }}</h3>
 
-            <img class="article__image" src="/images/{{ foto }}.jpg" alt="{{ alt }}">
-
             <p class="article__perex">{{ perex }}</p>
 
-            {{ content | safe }}
+            <div class="article__content">
+
+                <div class="article__content article__content--left">
+                    <img class="article__image" src="/images/{{ foto }}.jpg" alt="{{ alt }}">
+                </div>
+        
+                <div class="article__content article__content--right">
+                    
+                    {{ content | safe }}
+
+                </div>
+        
+        
+            </div>
+        
+
 
             <p class="article__date">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
 
