@@ -1,6 +1,6 @@
 ---
 layout: layouts/sablona-clanek.njk
-title: Vlasova péče
+title: Vlasová péče
 perex: Netoxicka pece o vlasy je pomerne orisek. Pokud clovek nechce jit cestou, kdy si vlasy myje ruznymi prasky ci moukou, zloutky nebo jilem, muze mit problem. Existuje jen velmi malo samponu s opravdu cistym slozenim.
 foto: hair.jpg
 alt: Vlasy pri myti

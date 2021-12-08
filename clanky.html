@@ -3,11 +3,11 @@ layout: layouts/hlavni-sablona.njk
 title: Články
 ---
 
-<h2>Články</h2>
+<h2 class="heading-second">Články</h2>
 
 {% for post in collections.clanky | reverse %}
 
-    <h2>{{ post.data.title }}</h2>
+    <h3 class="heading-third">{{ post.data.title }}</h3>
     <p>{{ post.data.perex }}</p>
     <p><a href="{{ post.url }}">číst dál</a></p>
 
