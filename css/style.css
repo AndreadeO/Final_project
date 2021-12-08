@@ -13,6 +13,11 @@ html {
   margin: 0;
 }
 
+.title {
+  text-decoration: none;
+  color: #000000;
+}
+
 .header {
   /*upravit header at je foto ke kraji a neni videt barva*/
   background-color: #dbffc1;
@@ -23,7 +28,7 @@ html {
   padding: 100px;
 }
 .header__title {
-  font-family: "Comforter Brush", cursive;
+  font-family: "Comforter", cursive;
   font-size: 80px;
   text-align: center;
 }
@@ -169,7 +174,7 @@ html {
 
 .topic__text {
   line-height: 1.7;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .topic__item {

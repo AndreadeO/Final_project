@@ -4,10 +4,11 @@ $light-color: #ffe4f3;
 $dark-color: #386641;
 $baby-pink-color: #ffeef2; 
 $box-shadow-color: #b2a1af;
+$title-color: #000000;
 
 
-$font-heading-main: 'Comforter Brush', cursive;
-$font-paragraphs: 'Open Sans', sans-serif; 
+$font-heading-main: 'Comforter', cursive;
+$font-paragraphs: 'Open Sans', sans-serif;
 
 
 
@@ -27,6 +28,10 @@ html {
   
 }
 
+.title {
+  text-decoration: none;
+  color: $title-color;
+}
 
 .header {  /*upravit header at je foto ke kraji a neni videt barva*/
   background-color: $main-color;
@@ -216,7 +221,7 @@ html {
 
 .topic__text {
   line-height: 1.7;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 
