@@ -19,7 +19,6 @@ html {
 }
 
 .header {
-  /*upravit header at je foto ke kraji a neni videt barva*/
   background-color: #dbffc1;
   background-image: url(/images/header-01.png);
   background-repeat: no-repeat;
@@ -33,10 +32,10 @@ html {
   text-align: center;
 }
 
-/*
 .card__link {
   text-decoration: none;
-} nefunguje na zmenu odkazu*/
+}
+
 .introduction {
   text-align: center;
 }

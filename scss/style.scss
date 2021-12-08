@@ -33,7 +33,7 @@ html {
   color: $title-color;
 }
 
-.header {  /*upravit header at je foto ke kraji a neni videt barva*/
+.header {
   background-color: $main-color;
   background-image: url(/images/header-01.png);
   background-repeat: no-repeat;
@@ -50,10 +50,10 @@ html {
   
 }
 
-/*
+
 .card__link {
   text-decoration: none;
-} nefunguje na zmenu odkazu*/
+} 
 
 .introduction {
   text-align: center;
