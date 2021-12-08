@@ -243,13 +243,20 @@ html {
   
 }
 
-.article__image {
-    width: 300px;        
-}  
-
-.article__perex {
-    font-weight: 600;
+.article__title {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: $dark-color;
+  text-decoration: underline overline;
+  text-align: left;
 }
+
+.article__image {
+  width: 300px;
+
+} 
+
 
 
 /* DODELAT VERZI PRO TABLET
@@ -366,11 +373,6 @@ html {
     justify-content: space-evenly;
   }
 
-  .article__image {
-    width: 500px;
-  
-  } 
-  
   .article__title {
     font-size: 25px;
     margin-top: 50px;
@@ -381,16 +383,22 @@ html {
   
   }
   
+  .article__image {
+    width: 500px;
+  }
+
   .article__date {
     text-align: left;
   }
   
   .article__perex {
     margin-bottom: 50px;
+    font-weight: 600;
   }
   
   .article__content {
     display: flex;
     gap: 40px;
   }
+
 }

@@ -1,5 +1,5 @@
 ---
-layout: layouts/sablona-clanky.njk
+layout: layouts/sablona-clanek.njk
 title: Přírodní pleťová péče
 perex: Pecovat o plet ciste prirodne lze oleji. Oleju existuje velka spousta druhu. Ne kazdy je na plet vhodny, zalezi na jejich komedogenicite. Olejova pece neni vsak vhodna pro kazdou plet.
 foto: face-oil.jpg
