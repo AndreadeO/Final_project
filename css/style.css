@@ -109,7 +109,7 @@ html {
 }
 
 .main {
-  padding: 50px 80px;
+  padding: 50px 20px;
 }
 
 .text {
@@ -239,6 +239,10 @@ html {
   .menu__link:hover {
     background-color: #bc4749;
     color: #ffe4f3;
+  }
+
+  .main {
+    padding: 50px 80px;
   }
 
   .card {
