@@ -65,10 +65,10 @@ html {
 }
 
 .heading-fourth {
-  font-size: 23px;
+  font-size: 19px;
   font-style: italic;
   color: #386641;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .menu__checkbox {
@@ -239,6 +239,11 @@ html {
     font-size: 25px;
   }
 
+  .heading-fourth {
+    font-size: 23px;
+    margin-top: 50px;
+  }
+
   .menu__toggler {
     display: none;
   }
@@ -346,5 +351,9 @@ html {
   .article__content {
     display: flex;
     gap: 40px;
+  }
+
+  .scroll {
+    scroll-behavior: smooth;
   }
 }/*# sourceMappingURL=style.css.map */

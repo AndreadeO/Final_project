@@ -87,10 +87,10 @@ html {
 }
 
 .heading-fourth {
-  font-size: 23px; 
+  font-size: 19px; 
   font-style: italic; 
   color: $dark-color;
-  margin-top: 50px;
+  margin-top: 25px;
   
 }
 
@@ -302,6 +302,13 @@ html {
     font-size: 25px;
   }
 
+  .heading-fourth {
+    font-size: 23px; 
+    margin-top: 50px;
+
+    
+  }
+
   .menu__toggler {
     display: none;
   }
@@ -428,5 +435,7 @@ html {
     gap: 40px;
   }
 
-  
+  .scroll {
+    scroll-behavior: smooth;
+  }
 }
