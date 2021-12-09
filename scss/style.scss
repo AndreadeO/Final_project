@@ -39,7 +39,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px;
+  padding: 60px;
 
   &__title {
     font-family: $font-heading-main;
@@ -289,7 +289,17 @@ html {
     
   }
   
+  .header {
+    padding: 20px;
   
+    &__title {
+      font-size: 130px;
+    
+    }
+    
+  }
+  
+
   .heading-second,
   .article__title {
     font-size: 40px;
@@ -435,7 +445,4 @@ html {
     gap: 40px;
   }
 
-  .scroll {
-    scroll-behavior: smooth;
-  }
 }
