@@ -96,7 +96,7 @@ html {
 
 
 .menu__checkbox {
-    position: absolute;
+  position: absolute;
 	left: -9999px;
 }
 
@@ -230,15 +230,17 @@ html {
   margin-top: 50px;
 
 }
-/*
+
 .list {
-  
-  
+  display: flex;
+  flex-direction: column;
+
 }
-*/
+
 .list__item {
   list-style-type: square;
   color: $red-color;
+
 
   
 }
@@ -375,9 +377,14 @@ html {
     grid-template-columns: 1fr 1fr 1fr;  /*posunout na stred jak u mobile tak pc*/
     grid-auto-rows: auto;
   }
+/*
+  .list__item {
+    justify-content: space-evenly;
+  }*/
 
   .list--short {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
   

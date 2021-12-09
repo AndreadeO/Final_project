@@ -181,12 +181,11 @@ html {
   margin-top: 50px;
 }
 
-/*
 .list {
-
-
+  display: flex;
+  flex-direction: column;
 }
-*/
+
 .list__item {
   list-style-type: square;
   color: #bc4749;
@@ -306,8 +305,13 @@ html {
     grid-auto-rows: auto;
   }
 
+  /*
+    .list__item {
+      justify-content: space-evenly;
+    }*/
   .list--short {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 
