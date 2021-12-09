@@ -209,12 +209,13 @@ html {
 
 
 .topic__image {
-  width: 300px;
+  width: 100%;
   border-radius: 8px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+  border-radius: 5px;
   
 
 }
@@ -265,7 +266,8 @@ html {
 }
 
 .article__image {
-  width: 300px;
+  width: 100%;
+  border-radius: 5px;
 
 } 
 
