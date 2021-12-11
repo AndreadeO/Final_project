@@ -7,7 +7,9 @@ title: Recenze produktů
 
 {% for post in collections.recenze %}
 
-<h2>{{ post.data.title }}</h2>
+<h3 class="heading-third">{{ post.data.title }}</h3>
 <p><a class="link" href="{{ post.url }}">číst dále...</a></p>
+
+<hr>
 
 {% endfor %}
