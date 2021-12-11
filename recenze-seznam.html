@@ -1,0 +1,13 @@
+---
+layout: layouts/hlavni-sablona.njk
+title: Recenze produktů
+---
+
+<h2 class="heading-second">Recenze produktů</h2>
+
+{% for post in collections.recenze %}
+
+<h2>{{ post.data.title }}</h2>
+<p><a class="link" href="{{ post.url }}">číst dále...</a></p>
+
+{% endfor %}
