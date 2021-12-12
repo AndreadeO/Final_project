@@ -5,7 +5,7 @@ title: Recenze produktů
 
 <h2 class="heading-second">Recenze produktů</h2>
 
-{% for post in collections.recenze %}
+{% for post in collections.recenze | reverse %}
 
 <h3 class="heading-third">{{ post.data.title }}</h3>
 <p><a class="link" href="{{ post.url }}">číst dále...</a></p>
