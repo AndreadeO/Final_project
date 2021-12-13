@@ -9,7 +9,7 @@ html {
 .body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  background-color: #dbffc1;
+  background-color: #e8fdda;
   margin: 0;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 .header {
-  background-color: #dbffc1;
+  background-color: #e8fdda;
   background-image: url(/images/header-01.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,12 +87,12 @@ html {
 
 .menu__item {
   list-style: none;
-  border-bottom: 2px solid #dbffc1;
+  border-bottom: 2px solid #e8fdda;
 }
 
 .menu__link {
   text-decoration: none;
-  color: #dbffc1;
+  color: #e8fdda;
   display: block;
   padding: 10px;
 }
@@ -111,7 +111,7 @@ html {
 
 .footer {
   padding: 5px;
-  color: #dbffc1;
+  color: #e8fdda;
   background-color: #386641;
   text-align: center;
 }
