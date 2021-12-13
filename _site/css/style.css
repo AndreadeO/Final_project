@@ -193,8 +193,14 @@ html {
 }
 
 .list {
-  display: flex;
-  flex-direction: column;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding: 0;
 }
 
 .list__item {
@@ -351,18 +357,17 @@ html {
   }
 
   .list {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /*posunout na stred jak u mobile tak pc*/
-    grid-auto-rows: auto;
-    /*justify-items: center;*/
+    justify-content: space-between;
+    /*column-gap: 100px;*/
+    padding: 0;
   }
 
-  .list__item {
-    list-style-position: inside;
-    /*text-align: left;*/
-  }
-
+  /*
+    .list__item {
+      list-style-position: inside;
+      /*text-align: left;*/
+  /* }*/
   .list--short {
     display: flex;
     flex-direction: row;
