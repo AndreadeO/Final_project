@@ -374,6 +374,7 @@ html {
   .blog-post {
     display: flex;
     gap: 40px;
+    align-items: center;
   }
 
   .blog-post__left {
@@ -382,5 +383,6 @@ html {
 
   .blog-post__right {
     width: 85%;
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
