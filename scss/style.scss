@@ -55,14 +55,10 @@ html {
   text-decoration: none;
 } 
 
-.introduction {
+.text--introduction {
   text-align: center;
-
-}
-
-.introduction,
-.text {
   margin-bottom: 60px;
+
 }
 
 .heading-second,
@@ -145,10 +141,6 @@ html {
 
 }
 
-.text {
-  text-align: center;
-}
-
 .footer {
   padding: 5px;
   color: $main-color;
@@ -208,7 +200,7 @@ html {
   
 }
 
-.topic {
+.topic--products {
   border: 1px solid $baby-pink-color;
   background-color: $baby-pink-color;
   border-radius: 20px;
@@ -406,10 +398,6 @@ html {
   
   .heading-third {
     text-align: left;
-  }
-  
-  .topic {
-    padding: 0 40px 0 40px;
   }
   
   .topic__item {
