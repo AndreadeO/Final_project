@@ -220,6 +220,11 @@ html {
   color: #bc4749;
 }
 
+.blog-post__photo {
+  width: 100%;
+  border-radius: 4px;
+}
+
 /* DODELAT VERZI PRO TABLET
 @media screen and (min-width: 600px) {
   .card__item {
@@ -368,7 +373,6 @@ html {
 
   .blog-post {
     display: flex;
-    justify-content: center;
     gap: 40px;
   }
 
@@ -378,10 +382,5 @@ html {
 
   .blog-post__right {
     width: 85%;
-  }
-
-  .blog-post__photo {
-    width: 100%;
-    border-radius: 4px;
   }
 }/*# sourceMappingURL=style.css.map */
