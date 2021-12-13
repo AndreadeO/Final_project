@@ -80,6 +80,7 @@ html {
 .menu__toggler {
   font-weight: 600;
   color: #386641;
+  font-size: 20px;
 }
 
 .menu__list {
@@ -161,6 +162,14 @@ html {
 .card__item--third {
   grid-column: 1/-1;
   grid-row: 3/-1;
+}
+
+.topic {
+  border: 1px solid #ffeef2;
+  background-color: #ffeef2;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 0 40px 0 40px;
 }
 
 .topic__image {
@@ -346,12 +355,14 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
     /*posunout na stred jak u mobile tak pc*/
     grid-auto-rows: auto;
+    /*justify-items: center;*/
   }
 
-  /*
-    .list__item {
-      justify-content: space-evenly;
-    }*/
+  .list__item {
+    list-style-position: inside;
+    /*text-align: left;*/
+  }
+
   .list--short {
     display: flex;
     flex-direction: row;
@@ -384,5 +395,11 @@ html {
   .blog-post__right {
     width: 85%;
     margin-bottom: 20px;
+  }
+
+  .ramecek {
+    border: 1px solid #ffeef2;
+    border-radius: 5px;
+    background-color: #ffeef2;
   }
 }/*# sourceMappingURL=style.css.map */
