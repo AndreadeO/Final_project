@@ -37,7 +37,6 @@ html {
 }
 
 .text--introduction {
-  text-align: center;
   margin-bottom: 60px;
 }
 
@@ -286,6 +285,11 @@ html {
 
   .main {
     padding: 50px 80px;
+  }
+
+  .text--introduction {
+    text-align: center;
+    margin-bottom: 60px;
   }
 
   .card {

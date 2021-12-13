@@ -56,7 +56,6 @@ html {
 } 
 
 .text--introduction {
-  text-align: center;
   margin-bottom: 60px;
 
 }
@@ -358,6 +357,12 @@ html {
   
   }
 
+  .text--introduction {
+    text-align: center;
+    margin-bottom: 60px;
+  
+  }
+  
   .card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
