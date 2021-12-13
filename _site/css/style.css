@@ -149,7 +149,6 @@ html {
 .card__title {
   font-weight: 600;
   color: #386641;
-  /*text-decoration: none; nefugnuje na zmenu toho odkazu*/
 }
 .card__item--first {
   grid-column: 1/-1;
@@ -169,7 +168,7 @@ html {
   background-color: #ffeef2;
   border-radius: 20px;
   margin-bottom: 30px;
-  padding: 0 40px 0 40px;
+  padding: 0 20px 0 20px;
 }
 
 .topic__image {
@@ -201,6 +200,13 @@ html {
   -moz-column-gap: 30px;
        column-gap: 30px;
   padding: 0;
+}
+
+.list--short {
+  display: block;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .list__item {
@@ -240,15 +246,6 @@ html {
   border-radius: 4px;
 }
 
-/* DODELAT VERZI PRO TABLET
-@media screen and (min-width: 600px) {
-  .card__item {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px;
-
-
-}*/
 @media screen and (min-width: 800px) {
   .body {
     font-size: 20px;
@@ -330,6 +327,10 @@ html {
     text-align: left;
   }
 
+  .topic {
+    padding: 0 40px 0 40px;
+  }
+
   .topic__item {
     display: flex;
     gap: 50px;
@@ -358,20 +359,17 @@ html {
 
   .list {
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    /*column-gap: 100px;*/
+    justify-content: space-around;
+    -moz-column-gap: 70px;
+         column-gap: 70px;
     padding: 0;
   }
 
-  /*
-    .list__item {
-      list-style-position: inside;
-      /*text-align: left;*/
-  /* }*/
   .list--short {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    width: auto;
+    margin-bottom: 50px;
   }
 
   .article__image {
