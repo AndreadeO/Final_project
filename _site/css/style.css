@@ -400,9 +400,7 @@ html {
     margin-bottom: 20px;
   }
 
-  .ramecek {
-    border: 1px solid #ffeef2;
-    border-radius: 5px;
-    background-color: #ffeef2;
+  .card__item--sixth {
+    padding: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
