@@ -237,6 +237,27 @@ html {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 600px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  .card__item--first, .card__item--fourth {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+  }
+  .card__item--second, .card__item--fifth {
+    grid-column: 2/3;
+    grid-row: 1/-1;
+  }
+  .card__item--third, .card__item--sixth {
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+  }
+}
 @media screen and (min-width: 800px) {
   .body {
     font-size: 20px;
@@ -292,26 +313,6 @@ html {
     margin-bottom: 60px;
   }
 
-  .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 30px;
-    margin-bottom: 100px;
-  }
-  .card__item--first, .card__item--fourth {
-    grid-column: 1/2;
-    grid-row: 1/-1;
-  }
-  .card__item--second, .card__item--fifth {
-    grid-column: 2/3;
-    grid-row: 1/-1;
-  }
-  .card__item--third, .card__item--sixth {
-    grid-column: 3/-1;
-    grid-row: 1/-1;
-  }
-
   .topic__image--first,
 .topic__image--seventh {
     float: right;
@@ -332,9 +333,9 @@ html {
     width: 400px;
   }
 
-  .topic__image--fifth,
-.topic__image--sixth,
-.topic__image--eighth {
+  .topic__image--sixth,
+.topic__image--eighth,
+.topic__image--ninth {
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
