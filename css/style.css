@@ -258,11 +258,11 @@ html {
     grid-row: 1/-1;
   }
   .card__item--sixth {
-    padding-bottom: 10px 5px;
+    padding-bottom: 5px;
   }
   .card .card__title--long {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 800px) {
