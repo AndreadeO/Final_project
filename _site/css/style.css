@@ -237,7 +237,7 @@ html {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
   .card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
