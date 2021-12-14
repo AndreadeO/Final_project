@@ -258,7 +258,7 @@ html {
     grid-row: 1/-1;
   }
   .card__item--sixth {
-    padding-bottom: 10px;
+    padding-bottom: 10px 5px;
   }
   .card .card__title--long {
     text-align: center;
