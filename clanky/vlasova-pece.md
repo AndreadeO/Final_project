@@ -1,7 +1,7 @@
 ---
 layout: layouts/sablona-clanek.njk
 title: Vlasová péče
-perex: Netoxicka pece o vlasy je pomerne orisek. Pokud clovek nechce jit cestou, kdy si vlasy myje ruznymi prasky ci moukou, zloutky nebo jilem, muze mit problem. Existuje jen velmi malo samponu s opravdu cistym slozenim.
+perex: Netoxická péče o vlasy je poměrně oříšek. Pokud člověk nechce jít cestou, kdy si vlasy myje různými prášky či moukou, žloutky nebo jílem, může mít problém. Existuje jen velmi málo šamponů s opravdu čistým složením.
 foto: hair-quadr.jpg
 alt: Vlasy pri myti
 tags: clanky

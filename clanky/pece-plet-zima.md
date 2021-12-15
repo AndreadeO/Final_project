@@ -1,7 +1,7 @@
 ---
 layout: layouts/sablona-clanek.njk
 title: Péče o pleť v zimě
-perex: V zime je plet vice namahana a je tedy treba se o ni vice starat. Pred odchodem ven je vhodne pokozku promastit, aby byla chranena pred zimou. Pokud clovek bezne pouziva oleje, je vhodne zaradit i masla, ci "kremy" na bazi masel, napriklad maslo bambucke.
+perex: V zimě je pleť více namáhána a je tedy třeba se o ni více starat. Před odchodem ven je vhodné pokožku promastit, aby byla chráněna před zimou. Pokud člověk běžně používá oleje, je vhodné zařadit i másla, či "krémy" na bázi másel, například máslo bambucké.
 foto: face-in-snow-cut.jpg
 alt: Žena ve sněhu
 tags: clanky

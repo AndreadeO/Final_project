@@ -1,7 +1,7 @@
 ---
 layout: layouts/sablona-clanek.njk
 title: Hydroláty
-perex: Kdyz se rekne hydrolat, mnozi asi netusi, o cem je rec. Hydrolat, hydrosol nebo take kvetova voda. Je to jedno a to same. Pojdme si je predstavit a zjistit o nich neco vice.
+perex: Když se řekne hydrolát, mnozí asi netuší, o čem je řeč. Hydrolát, hydrosol nebo také květová voda. Je to jedno a to samé. Pojďme si je představit a zjistit o nich něco více.
 foto: distillated-flower-water-quadr.jpg
 alt: Žena s rozprasovacem
 tags: clanky
