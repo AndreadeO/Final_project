@@ -291,7 +291,7 @@ html {
   width: 100%;
   border-radius: 4px;
 }
-  
+ 
 @media screen and (min-width: 550px) {
 
   .card {
@@ -326,7 +326,7 @@ html {
       padding-bottom: 5px;
     }
 
-    .card__title--long {
+    &__title--long {
       text-align: center;
       margin-top: 25px;
       font-size: 17px;
@@ -362,7 +362,6 @@ html {
   
     &__title {
       font-size: 130px;
-    
     }
     
   }
@@ -509,7 +508,10 @@ html {
   }
 
   .card__item--sixth {
-    padding: 30px;
-    /*opravit*/
+    padding: 25px;
+  }
+
+  .card__title--long {
+    font-size: 20px;
   }
 }

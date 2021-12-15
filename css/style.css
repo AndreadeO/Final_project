@@ -259,7 +259,7 @@ html {
   .card__item--sixth {
     padding-bottom: 5px;
   }
-  .card .card__title--long {
+  .card__title--long {
     text-align: center;
     margin-top: 25px;
     font-size: 17px;
@@ -412,7 +412,10 @@ html {
   }
 
   .card__item--sixth {
-    padding: 30px;
-    /*opravit*/
+    padding: 25px;
+  }
+
+  .card__title--long {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
