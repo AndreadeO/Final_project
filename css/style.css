@@ -169,7 +169,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  border-radius: 5px;
 }
 
 .topic__text {
@@ -264,6 +263,12 @@ html {
     text-align: center;
     margin-top: 25px;
     font-size: 17px;
+  }
+  .card .topic__image {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    border-radius: 5px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -403,5 +408,6 @@ html {
 
   .card__item--sixth {
     padding: 30px;
+    /*opravit*/
   }
 }/*# sourceMappingURL=style.css.map */
