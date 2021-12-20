@@ -10,11 +10,15 @@ title: Články
     <div class="blog-post">
 
         <div class="blog-post__left">
-            <img class="blog-post__photo" src="/images/{{ post.data.foto }} " alt="{{ post.data.alt }}">
+            <a href="{{ post.url }}">
+                <img class="blog-post__photo" src="/images/{{ post.data.foto }} " alt="{{ post.data.alt }}">
+            </a>
         </div>
 
         <div class="blog-post__right">
-            <h3 class="heading-third">{{ post.data.title }}</h3>
+            <a href="{{ post.url }}">
+                <h3 class="heading-third">{{ post.data.title }}</h3>
+            </a>
             <p>{{ post.data.perex }}</p>
             <p><a class="link" href="{{ post.url }}">číst dále...</a></p>
         </div>

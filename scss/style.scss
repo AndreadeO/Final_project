@@ -51,9 +51,6 @@ html {
 }
 
 
-.card__link {
-  text-decoration: none;
-} 
 
 .text--introduction {
   margin-bottom: 60px;
@@ -163,14 +160,11 @@ html {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-  
-  
   }
   
   &__image {
     width: 50%;
     border-radius: 50%;
-    
   }
   
   &__title {
@@ -182,22 +176,24 @@ html {
   &__item--first {
     grid-column: 1/-1;
     grid-row: 1/2;
-    
   }
   
   &__item--second {
     grid-column: 1/-1;
     grid-row: 2/3;
-  
   }
   
   &__item--third {
     grid-column: 1/-1;
     grid-row: 3/-1;
-  
   }
+
+  &__link {
+    text-decoration: none;
+  } 
   
 }
+
 
 .topic--products {
   border: 1px solid $baby-pink-color;
@@ -239,29 +235,27 @@ html {
   column-gap: 30px;
   padding: 0;
 
-}
+  &__item {
+    list-style-type: square;
+    color: $red-color;
+  }
+  
+  &__link {
+    color: $red-color;
+  }
 
-.list--short {
-  display: block;
-  width: 100px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-
-
-.list__item {
-  list-style-type: square;
-  color: $red-color;
-
-
+  &--short {
+    display: block;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   
 }
 
-.list__link {
-  color: $red-color;
-  
-}
+
+
+
 
 .article__title {
   font-size: 25px;
@@ -468,15 +462,15 @@ html {
     column-gap: 70px;
     padding: 0;
   
+    &--short {
+      display: flex;
+      justify-content: space-evenly;
+      width: auto;
+      margin-bottom: 50px;
+    }
+  
   }
   
-  .list--short {
-    display: flex;
-    justify-content: space-evenly;
-    width: auto;
-    margin-bottom: 50px;
-
-  }
   
   .article__image {
     width: 350px;
@@ -497,15 +491,16 @@ html {
     display: flex;
     gap: 40px;
     align-items: center;
-  }
 
-  .blog-post__left {
-    width: 15%;
-  }
-
-  .blog-post__right {
-    width: 85%;
-    margin-bottom: 20px;
+    &__left {
+      width: 15%;
+    }
+  
+    &__right {
+      width: 85%;
+      margin-bottom: 20px;
+    }
+  
   }
 
   .card__item--sixth {
