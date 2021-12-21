@@ -67,25 +67,21 @@ html {
   position: absolute;
   left: -9999px;
 }
-
 .menu__toggler {
   font-weight: 600;
   color: #386641;
   font-size: 20px;
 }
-
 .menu__list {
   display: none;
   margin: 0;
   padding: 0;
   background-color: #386641;
 }
-
 .menu__item {
   list-style: none;
   border-bottom: 2px solid #e8fdda;
 }
-
 .menu__link {
   text-decoration: none;
   color: #e8fdda;
@@ -96,7 +92,6 @@ html {
   background-color: #bc4749;
   color: #ffe4f3;
 }
-
 .menu__checkbox:checked ~ .menu__list {
   display: block;
 }
@@ -160,7 +155,6 @@ html {
   margin-bottom: 30px;
   padding: 0 20px 0 20px;
 }
-
 .topic__image {
   width: 100%;
   border-radius: 8px;
@@ -169,12 +163,10 @@ html {
   margin-right: auto;
   margin-bottom: 40px;
 }
-
 .topic__text {
   line-height: 1.7;
   margin-bottom: 30px;
 }
-
 .topic__item {
   border-bottom: 1px solid #386641;
   margin-top: 50px;
@@ -212,12 +204,10 @@ html {
   text-decoration: underline overline;
   text-align: left;
 }
-
 .article__perex {
   margin-bottom: 50px;
   font-weight: 600;
 }
-
 .article__image {
   width: 100%;
   border-radius: 5px;
@@ -304,16 +294,13 @@ html {
   .menu__toggler {
     display: none;
   }
-
   .menu__list {
     display: flex;
     justify-content: space-evenly;
   }
-
   .menu__item {
     border-bottom: 0;
   }
-
   .menu__link:hover {
     background-color: #bc4749;
     color: #ffe4f3;
@@ -328,41 +315,32 @@ html {
     margin-bottom: 60px;
   }
 
-  .topic__image--first,
-.topic__image--seventh {
+  .topic__image--first, .topic__image--seventh {
     float: right;
     margin-left: 30px;
     margin-bottom: 30px;
+  }
+  .topic__item {
+    display: flex;
+    gap: 50px;
+  }
+  .topic__image {
+    width: 400px;
+  }
+  .topic__image--sixth, .topic__image--eighth, .topic__image--ninth {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .topic__image--seventh, .topic__image--eighth {
+    width: 500px;
   }
 
   .heading-third {
     text-align: left;
   }
-
-  .topic__item {
-    display: flex;
-    gap: 50px;
-  }
-
-  .topic__image {
-    width: 400px;
-  }
-
-  .topic__image--sixth,
-.topic__image--eighth,
-.topic__image--ninth {
-    float: left;
-    margin-right: 40px;
-    margin-bottom: 40px;
-  }
-
   .heading-third--float {
     clear: left;
-  }
-
-  .topic__image--seventh,
-.topic__image--eighth {
-    width: 500px;
   }
 
   .list {
@@ -382,11 +360,9 @@ html {
   .article__image {
     width: 350px;
   }
-
   .article__date {
     text-align: left;
   }
-
   .article__content {
     display: flex;
     gap: 40px;
@@ -408,7 +384,6 @@ html {
   .card__item--sixth {
     padding: 25px;
   }
-
   .card__title--long {
     font-size: 20px;
   }
